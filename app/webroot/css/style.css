@@ -1,54 +1,56 @@
 @charset "utf-8";
 
+body, html {
+	height: 100%;
+	min-height: 100%;
+}
+
 body{
 	margin: 0;
 	min-width: 980px;
 	padding: 0;
 }
 
-.loading {
-	background: url('../img/ico_loading.gif') no-repeat center center;
+body.loading:before {
+	background-image: url('../img/ico_loading.gif');
+    background-color: #fff;
+    background-position: center center;
+    background-repeat: no-repeat;
+    content: "";
+    display: table;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    opacity: 1;
+    width: 100%;
 }
+
 section {
 	min-width: 960px;
 	opacity: 0;
-}
-.loaded section,
-	opacity: 1;
-	-webkit-transition: opacity 300ms ease-out;
-	-moz-transition: opacity 300ms ease-out;
-	transition: opacity 300ms ease-out;
 }
 
 img{
 	border: 0;
 }
 
-#intro{
-	background:url(../img/paralax/eski_corlu.jpg) 50% 0 no-repeat fixed;
-	color: white;
-	height: 600px;
+div.sections {
+	background-position: 50% 0px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-color: transparent;
 	margin: 0 auto;
 	padding: 0;
+}
+
+#intro{
+	background-image: url(../img/paralax/eski_corlu.jpg);
+	height: 600px;
 }
 
 #second{
-	background: url(images/secondBG.jpg) 50% 0 no-repeat fixed;
-	color: white;
+	background-image: url(../img/paralax/coffee-beans-turkish-coffee.jpg);
 	height: 1300px;
-	margin: 0 auto;
-	overflow: hidden;
-	padding: 0;
-}
-
-#second .bg{
-	background: url(images/trainers.png) 50% 0 no-repeat fixed;
-	height: 1300px;
-	margin: 0 auto;
-	padding: 0;
-	position: absolute;
-	width: 900px;
-	z-index: 200;
 }
 
 #third{

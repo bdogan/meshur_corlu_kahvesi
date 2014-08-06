@@ -20,12 +20,18 @@
 		echo $this->fetch('css');
 	?>
 </head>
-<body>
+<body class="loading">
+	<div id="intro" class="sections window-height">
+		<?php echo $this->element('Paralax/intro'); ?>
+	</div>
+	<div id="second" class="sections">
+		<?php echo $this->element('Paralax/second'); ?>
+	</div>
 	<div class="container">
 		<div class="row">
-	<?php echo $this->Session->flash(); ?>
+			<?php echo $this->Session->flash(); ?>
 
-	<?php echo $this->fetch('content'); ?>
+			<?php echo $this->fetch('content'); ?>
 		</div>
 	</div>
  	<?php 
@@ -36,7 +42,8 @@
 			'imagesloaded',
 			'jquery.localscroll-1.2.7-min',
 			'jquery.parallax-1.1.3',
-			'jquery.scrollTo-1.4.2-min'
+			'jquery.scrollTo-1.4.2-min',
+			'main'
 		));
 
 		echo $this->fetch('script');
