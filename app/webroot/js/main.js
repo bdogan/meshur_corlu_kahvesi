@@ -10,8 +10,7 @@
 	$(document).ready(function(){
 		$sections.parallax("50%", 0.1);
 
-		
-		$body.localScroll();
+		$body.localScroll({offset: {top: -121}});
 	});
 
 	$body.imagesLoaded( function() {
@@ -60,11 +59,20 @@
     var scrollTop = $(document).scrollTop();
     if(scrollTop > anchor){
       $("#nav").removeClass('navbar-static-top').addClass('navbar-fixed-top');
-      $(".summary").addClass('stacked');
+      $(".pad-want").addClass('stacked');
     } else {
   		$("#nav").removeClass('navbar-fixed-top').addClass('navbar-static-top');
-  		$(".summary").removeClass('stacked');
+  		$(".pad-want").removeClass('stacked');
     }
 	});
 
 })(jQuery);
+
+function initMap(){
+	var mapOptions = {
+    center: new google.maps.LatLng(40.435833800555567, -78.44189453125),
+    mapTypeId: google.maps.MapTypeId.ROADMAP,
+    zoom: 11
+  };	 
+  var map = new google.maps.Map(document.getElementById("mapHolder"), mapOptions);
+}

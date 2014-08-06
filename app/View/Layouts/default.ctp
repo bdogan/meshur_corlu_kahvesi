@@ -7,6 +7,7 @@
 	</title>
 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,500italic,500,300,300italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+	<script src="http://maps.google.com/maps/api/js?sensor=false&libraries=places" type="text/javascript"></script>
 	<?php
 
 		echo $this->Html->css(array(
@@ -23,22 +24,9 @@
 		echo $this->fetch('css');
 	?>
 </head>
-<body class="loading">
-	<div id="intro" class="sections window-height">
-		<?php echo $this->element('Paralax/intro'); ?>
-	</div>
-	<div class="summary" id="story">
-		<?php echo $this->element('summary'); ?>
-	</div>
-	<div id="second" class="sections"></div>
-	<div id="third" class="sections"></div>
-	<div class="container">
-		<div class="row">
-			<?php echo $this->Session->flash(); ?>
-
-			<?php echo $this->fetch('content'); ?>
-		</div>
-	</div>
+<body class="loading" onload=initMap()>
+	<?php echo $this->Session->flash(); ?>
+	<?php echo $this->fetch('content'); ?>
  	<?php 
 
 		echo $this->Html->script(array(

@@ -46,9 +46,9 @@
     <div class="row">
       <div class="col col-xs-offset-4 col-xs-4 text-center">
         <ul class="nav nav-pills nav-justified">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Profile</a></li>
-          <li><a href="#">Messages</a></li>
+          <li><a href="#story">Hakkımızda</a></li>
+          <li><a href="#products">Ürünlerimiz</a></li>
+          <li><a href="#contact">İletişim</a></li>
         </ul>
       </div>
     </div>

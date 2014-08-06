@@ -52,6 +52,14 @@ div.sections {
 	background-image: url(../img/paralax/heart-coffee-cup-beans.jpg);
 }
 
+.intro-menu {
+	margin-top: 120px;
+}
+
+.intro-menu a{
+	color: #FFF;
+}
+
 .header {
 	display: inline-block;
 	height: 120px;
@@ -120,14 +128,12 @@ div.sections {
 
 #second{
 	background-image: url(../img/paralax/eski_corlu.jpg);
-	height: 600px;
+	height: 800px;
 }
 
 #third{
-	background: url(images/thirdBG.jpg) 50% 0 no-repeat fixed;
-	color: white;
-	height: 650px;
-	padding: 100px 0 0 0;	
+	background: url(../img/paralax/cekirdek-cuha-kahve.jpg);
+	height: 600px;
 }
 
 #fifth{
@@ -141,8 +147,8 @@ div.sections {
 	min-height: 800px;
 }
 
-.summary.stacked{
-	padding-top: 71px;
+.stacked{
+	padding-top: 121px;
 }
 
 .summary a.navbar-brand{
@@ -162,4 +168,23 @@ ul.nav.navbar-nav a{
 
 ul.nav.navbar-nav li:first-child a{
 	margin-left: 60px;
+}
+
+#mapHolder {
+	height: 500px;
+}
+
+.contact {
+	position:relative;
+	top: -490px;
+	z-index: 100;
+}
+
+.contact .row > div{
+	background-color: #FFF;
+	border-radius: 5px;
+}
+
+.contact .row > div:last-child{
+	margin-left: 10px;
 }

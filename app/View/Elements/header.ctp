@@ -15,7 +15,7 @@
       <ul class="nav navbar-nav">
         <li class="active"><a href="#story">Hakkımızda</a></li>
         <li><a href="#products">Ürünler</a></li>
-        <li><a href="#contact">İletişim & Sipariş</a></li>
+        <li><a href="#contact">İletişim</a></li>
       </ul>
     </div>
   </div>
