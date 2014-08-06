@@ -4,12 +4,11 @@
 	$window = $(window);
 	$body = $('body');
 	$sections = $('.sections');
-	$header = $('.sections');
+	$header = $('.header');
 	$windowHeight = $('.window-height');
 	
 	$(document).ready(function(){
 		$sections.parallax("50%", 0.1);
-		
 	});
 
 	$body.imagesLoaded( function() {
@@ -37,5 +36,11 @@
 		
 	}).triggerHandler('resize');
 
+	$('.bxslider').bxSlider({
+		auto: true,
+		controls: true,
+		pager: false,
+	  mode: 'fade'
+	});
 		
 })(jQuery);

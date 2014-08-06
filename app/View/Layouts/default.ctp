@@ -6,12 +6,15 @@
 		Meşhur Çorlu Kahvesi
 	</title>
 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,500italic,500,300,300italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
 	<?php
 
 		echo $this->Html->css(array(
 			'bootstrap.min',
 			'bootstrap-theme.css',
-			'font-awesome.min'
+			'font-awesome.min',
+			'bootstrap-social',
+			'jquery.bxslider'
 		));
 
 		echo $this->Html->css('style');
@@ -43,6 +46,7 @@
 			'jquery.localscroll-1.2.7-min',
 			'jquery.parallax-1.1.3',
 			'jquery.scrollTo-1.4.2-min',
+			'jquery.bxslider.min',
 			'main'
 		));
 
