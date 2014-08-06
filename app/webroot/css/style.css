@@ -120,7 +120,7 @@ div.sections {
 
 #second{
 	background-image: url(../img/paralax/eski_corlu.jpg);
-	height: 400px;
+	height: 600px;
 }
 
 #third{
@@ -135,4 +135,31 @@ div.sections {
 	height: 400px;
 	margin: 0 auto;
 	padding: 40px 0 0 0;
+}
+
+.summary {
+	min-height: 800px;
+}
+
+.summary.stacked{
+	padding-top: 71px;
+}
+
+.summary a.navbar-brand{
+	display: inline-block;
+	padding: 0px;
+}
+
+.summary a.navbar-brand img{
+	width: 180px;
+	margin-top: 10px;
+}
+
+ul.nav.navbar-nav a{
+	height: 100px;
+	padding-top: 40px;
+}
+
+ul.nav.navbar-nav li:first-child a{
+	margin-left: 60px;
 }

@@ -27,9 +27,11 @@
 	<div id="intro" class="sections window-height">
 		<?php echo $this->element('Paralax/intro'); ?>
 	</div>
-	<div id="second" class="sections">
-		<?php echo $this->element('Paralax/second'); ?>
+	<div class="summary" id="story">
+		<?php echo $this->element('summary'); ?>
 	</div>
+	<div id="second" class="sections"></div>
+	<div id="third" class="sections"></div>
 	<div class="container">
 		<div class="row">
 			<?php echo $this->Session->flash(); ?>

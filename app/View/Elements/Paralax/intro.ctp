@@ -1,8 +1,8 @@
-<div class="header">
+<div class="header hidden-xs">
   <div class="container">
     <div class="row">
-      <div class="col col-md-offset-1 col-md-5 col-xs-12">
-        <?php echo $this->Html->image('meshur_corlu_kahvesi.png', array('class' => 'logo')); ?>
+      <div class="col col-md-6">
+        <?php echo $this->Html->image('meshur_corlu_kahvesi_dark.png', array('class' => 'logo')); ?>
       </div>
       <div class="col col-md-6 social">
         <div class="panel pull-right">
