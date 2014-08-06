@@ -1,10 +1,13 @@
 <div class="header hidden-xs">
   <div class="container">
     <div class="row">
-      <div class="col col-md-6">
+      <div class="col col-md-3 col-md-offset-1">
         <?php echo $this->Html->image('meshur_corlu_kahvesi_dark.png', array('class' => 'logo')); ?>
       </div>
-      <div class="col col-md-6 social">
+      <div class="col col-md-4 text-center">
+          <h3 style="margin-top: 45px;font-weight:200">"Kahve Dostluktur"</h3>
+      </div>
+      <div class="col col-md-3 social">
         <div class="panel pull-right">
           <?php echo $this->Html->link($this->Html->tag('i', '', array('class' => 'fa fa-twitter')), '#', array('escape' => false, 'class' => 'btn btn-social-icon btn-twitter')); ?>
           <?php echo $this->Html->link($this->Html->tag('i', '', array('class' => 'fa fa-facebook')), '#', array('escape' => false, 'class' => 'btn btn-social-icon btn-facebook')); ?>
@@ -21,18 +24,18 @@
       <div class="col col-xs-12">
         <ul class="bxslider">
           <li>
-              <h4 class="fs_title">Çorlu’nun sihrini taşıyan kahve</h4>
-              <p class="fs_description">Her yörenin her şehrin bir meşhur ürünü vardır Çorlulular olarak biz de Çorlu’muzun nesi meşhur diye sorduk. Baktık ki, buluşmalarımızda... <a href="#story">devamı</a>
+              <h4 class="fs_title">Hatıraların kahvesi</h4><br />
+              <p class="fs_description">Çorlu’nun sihrini taşıyan kahve <a href="#story">devamı...</a>
               </p>
           </li>
           <li>
-              <h4 class="fs_title">Cezvede kaynamış hatıralar</h4>
-              <p class="fs_description">Her yörenin her şehrin bir meşhur ürünü vardır Çorlulular olarak biz de Çorlu’muzun nesi meşhur diye sorduk. Baktık ki, buluşmalarımızda... <a href="#story">devamı</a>
+              <h4 class="fs_title">Cezvede kaynamış hatıralar</h4><br />
+              <p class="fs_description">Çorlu’nun sihrini taşıyan kahve <a href="#story">devamı...</a>
               </p>
           </li>
           <li>
-              <h4 class="fs_title">Bir fincan kahve = bitmeyen sohbet!</h4>
-              <p class="fs_description">Her yörenin her şehrin bir meşhur ürünü vardır Çorlulular olarak biz de Çorlu’muzun nesi meşhur diye sorduk. Baktık ki, buluşmalarımızda... <a href="#story">devamı</a>
+              <h4 class="fs_title">Bir fincan kahve, bitmeyen sohbetler</h4><br />
+              <p class="fs_description">Çorlu’nun sihrini taşıyan kahve <a href="#story">devamı...</a>
               </p>
           </li>
         </ul>

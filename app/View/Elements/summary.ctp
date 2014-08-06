@@ -13,8 +13,9 @@
       <h1 class="text-center" style="font-weight:200;font-style:italic;font-size:200%;">"Kahve Dostluktur"</h1>
       <br />
       <br />
+      <h3>Misyonumuz</h3>
       <p style="font-size:120%;line-height:150%;">
-        <span style="font-size:150%;">Misyonumuz</span> Çorlu’yu tanıtmak, hatırlatmak... Çorlu kahvesini dostlarla yudumlarken Çorlu’dan bahsetmek, Çorlu’yu yaşamak... Çorlu’yu sevmek... Kahvenin içindeki Çorlu sihrini yakalamak...
+        Çorlu’yu tanıtmak, hatırlatmak... Çorlu kahvesini dostlarla yudumlarken Çorlu’dan bahsetmek, Çorlu’yu yaşamak,<br /> Çorlu’yu sevmek, Kahvenin içindeki Çorlu sihrini yakalamak...
       </p>
     </div>
   </div>
