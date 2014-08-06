@@ -41,11 +41,11 @@ img{
 
 div.sections {
 	background-position: 50% 0px;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-color: transparent;
-	margin: 0 auto;
-	padding: 0;
+	background-attachment: fixed !important;
+	background-repeat: no-repeat !important;
+	background-color: transparent !important;
+	margin: 0 auto !important;
+	padding: 0 !important;
 }
 
 #intro{
@@ -153,27 +153,19 @@ div.sections {
 
 #second{
 	background-image: url(../img/paralax/heart-coffee-cup-beans.jpg);
-	height: 1080px;
+	height: 600px;
 }
 
 #third{
 	background: url(../img/paralax/cekirdek-cuha-kahve.jpg);
-	height: 1080px;
-}
-
-#fifth{
-	background: #ccc;
-	height: 400px;
-	margin: 0 auto;
-	padding: 40px 0 0 0;
+	height: 600px;
 }
 
 .summary {
-	min-height: 800px;
-}
+	
 
 .stacked{
-	padding-top: 121px;
+	padding-top: 121px !important;
 }
 
 .summary a.navbar-brand{

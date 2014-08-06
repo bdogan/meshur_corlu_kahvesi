@@ -70,9 +70,9 @@
 
 function initMap(){
 	var mapOptions = {
-    center: new google.maps.LatLng(40.435833800555567, -78.44189453125),
+    center: new google.maps.LatLng(41.132584, -27.858386),
     mapTypeId: google.maps.MapTypeId.ROADMAP,
-    zoom: 11
+    zoom: 11,
   };	 
   var map = new google.maps.Map(document.getElementById("mapHolder"), mapOptions);
 }
