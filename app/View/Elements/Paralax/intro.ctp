@@ -21,17 +21,17 @@
         <ul class="bxslider">
           <li>
               <h4 class="fs_title">Hatıraların kahvesi</h4><br />
-              <p class="fs_description">Çorlu’nun sihrini taşıyan kahve <a href="#story">devamı...</a>
+              <p class="fs_description">Çorlu’nun sihrini taşıyan kahve... <a href="#story">devamı <i class="fa fa-external-link"></i></a>
               </p>
           </li>
           <li>
               <h4 class="fs_title">Cezvede kaynamış hatıralar</h4><br />
-              <p class="fs_description">Çorlu’nun sihrini taşıyan kahve <a href="#story">devamı...</a>
+              <p class="fs_description">Çorlu’nun sihrini taşıyan kahve... <a href="#story">devamı <i class="fa fa-external-link"></i></a>
               </p>
           </li>
           <li>
               <h4 class="fs_title">Bir fincan kahve, bitmeyen sohbetler</h4><br />
-              <p class="fs_description">Çorlu’nun sihrini taşıyan kahve <a href="#story">devamı...</a>
+              <p class="fs_description">Çorlu’nun sihrini taşıyan kahve... <a href="#story">devamı <i class="fa fa-external-link"></i></a>
               </p>
           </li>
         </ul>

@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col-sm-4">
       <div class="contact-form">                    
-        <form class="contact-form white_section" method="post" action="/">
+        <form class="contact-form white_section" method="post" action="/" style="display:none;">
         <h2 class="block-header animated fadeInUp">Form</h2>
           <p class="contact-form-name animated fadeInUp">
             <label for="name">Adınız<span class="required">*</span></label>
@@ -20,6 +20,7 @@
             <input type="submit" value="Gönder" id="contact_form_submit" name="contact_submit" class="btn btn-primary">
           </p>
         </form>
+        <h3>İnternetten Sipariş<br /> Çok Yakında!</h3>
       </div>
     </div>
     <div class="info_block widget_text col-sm-4 white_section">

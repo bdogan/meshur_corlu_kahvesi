@@ -56,9 +56,10 @@ div.sections {
 	margin-top: 120px;
 }
 
-.intro-menu a, .intro-menu li.active{
+.intro-menu a{
 	color: #fff !important;
-	background-color: rgba(0,0,0,.3) !important;
+	font-weight: 500;
+	background-color: rgba(0,0,0,.4) !important;
 	margin-left: 10px !important;
 }
 
@@ -67,7 +68,7 @@ div.sections {
 	background-color: rgba(0,0,0,.2) !important;
 }
 
-.intro-menu li:first-child a{
+.intro-menu li:first-child{
 	margin-left: 0px;
 }
 
@@ -93,6 +94,9 @@ div.sections {
 	float: left;
 	padding: 3px 12px;
 	text-align: center;
+	font-family: "Myriad Pro";
+	font-style: italic;
+	color: #a74810;
 }
 
 .social.panel{
@@ -136,19 +140,29 @@ div.sections {
 
 .slogan .fs_description {
 	color: #ffffff;
-	background-color: rgba(0, 0, 0, .4);
-	font-size: 18px;
+	background-color: rgba(255, 255, 255, .7);
+	font-size: 20px;
+	color: #a74810;
 	font-weight: 500;
 	line-height: 25px;
 	margin-top: 0px;
-	text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+	text-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
 	display: inline-block;
 	padding-left: 20px;
 	padding-right: 20px;
 }
 
 .slogan .fs_description a{
-	color: #ffffff;
+	color: #a74810;
+	text-decoration: none;
+}
+
+.slogan .fs_description i{
+	font-size: 0.9em;
+	text-decoration: none;
+}
+
+.slogan .fs_description a:hover, .slogan .fs_description a:hover i{
 	text-decoration: underline;
 }
 
@@ -171,10 +185,6 @@ div.sections {
 #third{
 	background: url(../img/paralax/cekirdek-cuha-kahve.jpg);
 	height: 768px;
-}
-
-.story {
-	
 }
 
 .stacked{
@@ -231,16 +241,16 @@ ul.nav.navbar-nav li:first-child a{
 
 .back-to-top {
     position: fixed;
-	bottom: 1em;
-	right: 1em;
+	bottom: 10px;
+	right: 10px;
 	text-decoration: none;
 	color: rgb(0, 0, 0);
 	background-color: rgba(235, 235, 235, 0.8);
 	font-size: 56px;
-	padding: 2px 21px;
+	padding: 0px 15px;
 	display: none;
 	border-radius: 4px;
-	color: blue;
+	color: gray;
 }
 
 .back-to-top:hover {    
