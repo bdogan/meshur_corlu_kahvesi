@@ -33,7 +33,7 @@
         Çorlu Meşhur Türk Kahvesi<br> Türkgücü yolu üzeri Çorlu Gıda Sitesi No:28 Çorlu / Tekirdağ 
       </p>
       <p>
-        <?php echo $this->Html->link($this->Html->tag('i', '', array('class' => 'fa fa-facebook')), 'https://www.facebook.com/pages/Me%C5%9Fhur-%C3%87orlu-Kahvesi/1455010651431565', array('target' => 'new', 'escape' => false, 'class' => 'btn btn-social-icon btn-facebook')); ?>
+        <?php echo $this->Html->link($this->Html->tag('i', '', array('class' => 'fa fa-facebook')), 'http://www.facebook.com/pages/Meşhur-Çorlu-Kahvesi/1455010651431565', array('target' => 'new', 'escape' => false, 'class' => 'btn btn-social-icon btn-facebook')); ?>
       </p>
     </div>            
   </div>

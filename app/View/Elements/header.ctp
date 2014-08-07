@@ -18,7 +18,7 @@
         <li><a href="#contact">İletişim</a></li>
       </ul>
         <div class="social panel pull-right">
-          <?php echo $this->Html->link($this->Html->tag('i', '', array('class' => 'fa fa-facebook')) . 'Bizi facebooktan takip edin', 'https://www.facebook.com/pages/Me%C5%9Fhur-%C3%87orlu-Kahvesi', array('target' => 'new', 'escape' => false, 'class' => 'btn btn-social btn-facebook')); ?>
+          <?php echo $this->Html->link($this->Html->tag('i', '', array('class' => 'fa fa-facebook')) . 'Bizi facebooktan takip edin', 'http://www.facebook.com/pages/Meşhur-Çorlu-Kahvesi/1455010651431565', array('target' => 'new', 'escape' => false, 'class' => 'btn btn-social btn-facebook')); ?>
         </div>
     </div>
   </div>
