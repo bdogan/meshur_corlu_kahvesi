@@ -3,8 +3,14 @@
 <head>
 	<?php echo $this->Html->charset(); ?>
 	<title>
-		Meşhur Çorlu Kahvesi
+		Meşhur Çorlu Kahvesi kahve, çorlu
 	</title>
+
+	<meta name="keywords" content="kahve,meşhur,çorlu,geleneksel kahve,yöresel lezzet,türk kahvesi,toptan türk kahvesi,bitter kahve,kakuleli kahve,sade kahve,meşhur çorlu kahvesi,meyveli türk kahvesi" />
+	<meta name="description" content="Meşhur çorlu kahvesi, Uygun fiyatlı toptan satış" />
+	<meta name="author" content="PlatinTedarik" />
+	<meta name="robots" content="All" />
+
 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,500italic,500,300,300italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<script src="http://maps.google.com/maps/api/js?sensor=false&libraries=places" type="text/javascript"></script>
 	<?php
