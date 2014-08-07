@@ -95,14 +95,15 @@ div.sections {
 	text-align: center;
 }
 
-.header .social {
-	padding-top: 34px;
+.social.panel{
+	margin-top: 34px;
+	padding: 10px;
+	width: 250px;
+	background-color: rgba(255, 255, 255, 0.5);
 }
 
-.header .social .panel{
-	padding: 10px;
-	width: 55px;
-	background-color: rgba(255, 255, 255, 0.5);
+#nav .social.panel{
+	margin-top: 20px !important;
 }
 
 .header .social a{
