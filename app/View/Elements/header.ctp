@@ -1,4 +1,4 @@
-<div class="navbar navbar-default" id="nav" role="navigation">
+<div class="navbar navbar-default hidden-sm hidden-xs" id="nav" role="navigation">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
