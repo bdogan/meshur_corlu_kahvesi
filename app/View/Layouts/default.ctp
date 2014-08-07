@@ -6,7 +6,6 @@
 		Meşhur Çorlu Kahvesi
 	</title>
 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,500italic,500,300,300italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
 	<script src="http://maps.google.com/maps/api/js?sensor=false&libraries=places" type="text/javascript"></script>
 	<?php
 

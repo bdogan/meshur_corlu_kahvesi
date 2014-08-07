@@ -56,10 +56,10 @@ div.sections {
 	margin-top: 120px;
 }
 
-.intro-menu a{
-	color: #fff;
-	background-color: rgba(0,0,0,.3);
-	margin-left: 10px;
+.intro-menu a, .intro-menu li.active{
+	color: #fff !important;
+	background-color: rgba(0,0,0,.3) !important;
+	margin-left: 10px !important;
 }
 
 .intro-menu a:hover, .intro-menu a:active, .intro-menu a:visited{
@@ -82,6 +82,17 @@ div.sections {
 
 .header .logo {
 	
+}
+
+.header .logo-title {
+	margin-top: 15px;
+	font-weight: 200;
+	margin-left: 25px;
+	background-color: rgba(255, 255, 255, 0.7);
+	display: block;
+	float: left;
+	padding: 3px 12px;
+	text-align: center;
 }
 
 .header .social {
@@ -153,12 +164,12 @@ div.sections {
 
 #second{
 	background-image: url(../img/paralax/heart-coffee-cup-beans.jpg);
-	height: 600px;
+	height: 768px; 
 }
 
 #third{
 	background: url(../img/paralax/cekirdek-cuha-kahve.jpg);
-	height: 600px;
+	height: 768px;
 }
 
 .story {
@@ -166,7 +177,7 @@ div.sections {
 }
 
 .stacked{
-	
+	padding-top: 115px;
 }
 
 .story a.navbar-brand{
@@ -215,4 +226,22 @@ ul.nav.navbar-nav li:first-child a{
 	float:right;
 	margin-left: 20px;
 	margin-right: 0px;
+}
+
+.back-to-top {
+    position: fixed;
+	bottom: 1em;
+	right: 1em;
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	background-color: rgba(235, 235, 235, 0.8);
+	font-size: 56px;
+	padding: 2px 21px;
+	display: none;
+	border-radius: 4px;
+	color: blue;
+}
+
+.back-to-top:hover {    
+    background-color: rgba(135, 135, 135, 0.50);
 }

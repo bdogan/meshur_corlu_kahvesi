@@ -3,11 +3,9 @@
     <div class="row">
       <div class="col col-md-3 col-md-offset-1">
         <?php echo $this->Html->image('meshur_corlu_kahvesi_dark.png', array('class' => 'logo')); ?>
+        <h3 class="logo-title">"Kahve Dostluktur"</h3>
       </div>
-      <div class="col col-md-4 text-center">
-          <h3 style="margin-top: 45px;font-weight:200">"Kahve Dostluktur"</h3>
-      </div>
-      <div class="col col-md-3 social">
+      <div class="col col-md-7 social">
         <div class="panel pull-right">
           <?php echo $this->Html->link($this->Html->tag('i', '', array('class' => 'fa fa-facebook')), 'https://www.facebook.com/pages/Me%C5%9Fhur-%C3%87orlu-Kahvesi/1455010651431565', array('target' => 'new', 'escape' => false, 'class' => 'btn btn-social-icon btn-facebook')); ?>
         </div>

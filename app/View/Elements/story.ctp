@@ -16,6 +16,8 @@
         Çorlu’yu tanıtmak, hatırlatmak... Çorlu kahvesini dostlarla yudumlarken Çorlu’dan bahsetmek, Çorlu’yu yaşamak,<br /> Çorlu’yu sevmek, Kahvenin içindeki Çorlu sihrini yakalamak...
       </p>
       <br />
+      <br />
+      <br />
     </div>
   </div>
 </div>
