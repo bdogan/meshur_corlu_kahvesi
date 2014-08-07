@@ -12,7 +12,7 @@
       <?php echo $this->Html->image('yoresel_kahve.png', array('class' => 'img-circle product-image')); ?>
       <h3 style="margin-top:55px;margin-top:55px;">Yöresel Sade Kahve</h3>
       <p style="font-size:120%;line-height:150%;">
-        Yoğun bir kahve tadı olan Çorlumuzun geleneksel sade kahvesi, sert içimi ile Çorlulara gerçek bir Türk kahvesi tadı sunmakta. Kahvemizi yudumlarken Çorlu’dan esintiler bulacaksınız.
+        Yoğun bir kahve tadı olan Çorlumuzun geleneksel sade kahvesi, sert içimi ile Çorlulara gerçek bir Türk kahvesi tadı sunmakta. Çorlulular için özel kavrulan kahvemizi yudumlarken Çorlu’dan esintiler bulacaksınız.
       </p>
       <div class="clearfix"></div>
       <br />
