@@ -6,17 +6,22 @@
 	$sections = $('.sections');
 	$header = $('.header');
 	$windowHeight = $('.window-height');
+	$anchor = $("#story").offset().top;
 	
 	$(document).ready(function(){
-		$sections.parallax("50%", 0.2);
-
-		$body.localScroll({offset: {top: -121}});
+		$body.localScroll({
+			onBefore: function(){
+				if 
+			}
+		});
 	});
 
 	$body.imagesLoaded( function() {
 		setTimeout(function() {
 			$body.removeClass('loading').addClass('loaded');
 		}, 800);
+		$(window).trigger('resize')
+		$(document).trigger('scroll');
 	});
 
 	$window.on('resize', function(){
@@ -36,13 +41,13 @@
 			}
 		});
 		
-	}).triggerHandler('resize');
+	});
 
 	$('.bxslider').bxSlider({
 		auto: true,
 		controls: true,
 		pager: false,
-	  mode: 'fade'
+	  	mode: 'fade'
 	});
 		
 	$(".page-header").on('affix.bs.affix',function(){
@@ -53,26 +58,44 @@
 		$(this).removeClass("navbar-fixed-top");
 	});
 
-	var anchor = $("#nav").offset().top;
-	
 	$(document).scroll(function(e){
-    var scrollTop = $(document).scrollTop();
-    if(scrollTop > anchor){
-		$("#nav").removeClass('navbar-static-top').addClass('navbar-fixed-top');
-		$(".pad-want").addClass('stacked');
-    } else {
-		$("#nav").removeClass('navbar-fixed-top').addClass('navbar-static-top');
-		$(".pad-want").removeClass('stacked');
-    }
+		$anchor = $("#story").offset().top;
+	    var scrollTop = $(document).scrollTop();
+	    if(scrollTop > $anchor - 10){
+			$("#nav").removeClass('navbar-static-top').addClass('navbar-fixed-top');
+			$(".pad-want").addClass('stacked');
+	    } else {
+			$("#nav").removeClass('navbar-fixed-top').addClass('navbar-static-top');
+			$(".pad-want").removeClass('stacked');
+	    }
 	});
 
 })(jQuery);
 
 function initMap(){
+	var myLatlng = new google.maps.LatLng(41.132584, 27.858386);
 	var mapOptions = {
-    center: new google.maps.LatLng(41.132584, -27.858386),
-    mapTypeId: google.maps.MapTypeId.ROADMAP,
-    zoom: 11,
-  };	 
-  var map = new google.maps.Map(document.getElementById("mapHolder"), mapOptions);
+		zoom: 14,
+		center: myLatlng,
+		mapTypeControl: true,
+		mapTypeControlOptions: {
+			style: google.maps.MapTypeControlStyle.DROPDOWN_MENU
+		},
+		zoomControl: true,
+		zoomControlOptions: {
+			style: google.maps.ZoomControlStyle.SMALL
+		},
+		scrollwheel: false,
+	    
+	    
+	}
+	var map = new google.maps.Map(document.getElementById('mapHolder'), mapOptions);
+
+	var marker = new google.maps.Marker({
+		position: myLatlng,
+		map: map,
+		title: 'Meşhur Çorlu Kahvesi'
+	});
+
 }
+

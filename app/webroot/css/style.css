@@ -90,7 +90,7 @@ div.sections {
 
 .header .social .panel{
 	padding: 10px;
-	width: 141px;
+	width: 55px;
 	background-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -161,19 +161,20 @@ div.sections {
 	height: 600px;
 }
 
-.summary {
+.story {
 	
-
-.stacked{
-	padding-top: 121px !important;
 }
 
-.summary a.navbar-brand{
+.stacked{
+	
+}
+
+.story a.navbar-brand{
 	display: inline-block;
 	padding: 0px;
 }
 
-.summary a.navbar-brand img{
+.story a.navbar-brand img{
 	width: 180px;
 	margin-top: 10px;
 }
@@ -192,9 +193,7 @@ ul.nav.navbar-nav li:first-child a{
 }
 
 .contact {
-	position:relative;
-	top: -490px;
-	z-index: 100;
+
 }
 
 .contact .row > div{
@@ -204,8 +203,16 @@ ul.nav.navbar-nav li:first-child a{
 
 .contact .row > div:last-child{
 	margin-left: 10px;
+	margin-bottom: 20px;
 }
 
-.products p img {
+.products img.product-image {
 	float:left;
+	margin-right: 20px;
+}
+
+.products img.product-image.right {
+	float:right;
+	margin-left: 20px;
+	margin-right: 0px;
 }

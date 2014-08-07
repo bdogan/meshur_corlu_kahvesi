@@ -15,7 +15,7 @@
 			'bootstrap-theme.css',
 			'font-awesome.min',
 			'bootstrap-social',
-			'jquery.bxslider'
+			'jquery.bxslider',
 		));
 
 		echo $this->Html->css('style');

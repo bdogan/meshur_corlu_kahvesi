@@ -2,8 +2,6 @@
 <div class="container">
   <div class="row">
     <div class="col col-xs-offset-1 col-xs-10 text-center">
-      <br />
-      <br />
       <h1 class="text-center" style="line-height:150%;">Çorlu’nun sihrini taşıyan kahvenin merkezine<br/><span style="font-size:150%;">Hoşgeldiniz</span></h1>
       <br />
       <p style="font-size:120%;line-height:150%;">
@@ -17,6 +15,7 @@
       <p style="font-size:120%;line-height:150%;">
         Çorlu’yu tanıtmak, hatırlatmak... Çorlu kahvesini dostlarla yudumlarken Çorlu’dan bahsetmek, Çorlu’yu yaşamak,<br /> Çorlu’yu sevmek, Kahvenin içindeki Çorlu sihrini yakalamak...
       </p>
+      <br />
     </div>
   </div>
 </div>

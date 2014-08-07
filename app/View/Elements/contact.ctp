@@ -24,18 +24,16 @@
     </div>
     <div class="info_block widget_text col-sm-4 white_section">
       <h2 class="block-header animated fadeInUp">Bilgi</h2>               
-        <span class="fa fa-phone"></span> (282) 685 4424<br><br>
-        <span class="fa fa-fax"></span> (282) 685 4426<br><br>
-        <span class="fa fa-envelope"></span>             
-        <a href="mailto:info@company.com"> info@meshurcorlukahvesi.com</a><br><br>
-        <span class="fa fa-home"></span>
-          <p class="address">
-          Çorlu Meşhur Türk Kahvesi<br> Türkgücü yolu üzeri Çorlu Gıda Sitesi No:28 Çorlu / Tekirdağ 
-         </p>
-         <p>
-        <a href="#" class="btn btn-social-icon btn-twitter"><i class="fa fa-twitter"></i></a>
-        <a href="#" class="btn btn-social-icon btn-facebook"><i class="fa fa-facebook"></i></a>
-        <a href="#" class="btn btn-social-icon btn-instagram"><i class="fa fa-instagram"></i></a>      
+      <span class="fa fa-phone"></span> (282) 685 4424<br><br>
+      <span class="fa fa-fax"></span> (282) 685 4426<br><br>
+      <span class="fa fa-envelope"></span>             
+      <a href="mailto:info@company.com"> info@meshurcorlukahvesi.com</a><br><br>
+      <span class="fa fa-home"></span>
+      <p class="address">
+        Çorlu Meşhur Türk Kahvesi<br> Türkgücü yolu üzeri Çorlu Gıda Sitesi No:28 Çorlu / Tekirdağ 
+      </p>
+      <p>
+        <?php echo $this->Html->link($this->Html->tag('i', '', array('class' => 'fa fa-facebook')), 'https://www.facebook.com/pages/Me%C5%9Fhur-%C3%87orlu-Kahvesi/1455010651431565', array('target' => 'new', 'escape' => false, 'class' => 'btn btn-social-icon btn-facebook')); ?>
       </p>
     </div>            
   </div>
