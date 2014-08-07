@@ -3,7 +3,7 @@
 <head>
 	<?php echo $this->Html->charset(); ?>
 	<title>
-		Meşhur Çorlu Kahvesi kahve, çorlu
+		Meşhur Çorlu Kahvesi
 	</title>
 
 	<meta name="keywords" content="kahve,meşhur,çorlu,geleneksel kahve,yöresel lezzet,türk kahvesi,toptan türk kahvesi,bitter kahve,kakuleli kahve,sade kahve,meşhur çorlu kahvesi,meyveli türk kahvesi" />
