@@ -11,7 +11,7 @@
 	$(document).ready(function(){
 		$body.localScroll({
 			onBefore: function(){
-				if 
+				
 			}
 		});
 	});
