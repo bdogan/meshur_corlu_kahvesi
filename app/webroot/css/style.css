@@ -166,17 +166,6 @@ div.sections {
 	text-decoration: underline;
 }
 
-.slogan .fs_title:after {
-	background-color: rgba(255, 255, 255, 0.6);
-    border-radius: 5px;
-    content: "";
-    height: 4px;
-    left: 40%;
-    position: absolute;
-    top: 50%;
-    width: 200px;
-}
-
 #second{
 	background-image: url(../img/paralax/heart-coffee-cup-beans.jpg);
 	height: 768px; 

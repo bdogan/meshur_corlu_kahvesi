@@ -1,5 +1,5 @@
 
-<div id="intro" class="sections bcg window-height">
+<div id="intro" class="sections window-height hidden-xs">
 	<?php echo $this->element('Paralax/intro'); ?>
 </div>
 
