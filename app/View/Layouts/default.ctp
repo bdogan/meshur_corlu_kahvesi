@@ -28,6 +28,8 @@
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
 	?>
+	
+	<?php echo $this->element('analytics'); ?>
 </head>
 <body class="loading" onload=initMap()>
 	<?php echo $this->Session->flash(); ?>
