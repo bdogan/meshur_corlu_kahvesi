@@ -40,6 +40,10 @@
   </div>
 </div>
 
+<div class="kilitli_paket">
+  <div class="panel">Kilitli Pakette ilk Türk Kahvesi!</div>
+</div>
+
 <div class="intro-menu hidden-xs">
   <div class="container">
     <div class="row">
