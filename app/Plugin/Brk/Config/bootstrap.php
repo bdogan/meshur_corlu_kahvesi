@@ -46,7 +46,7 @@ Configure::write('Brk.main.menu', array(
           'plugin' => 'brk'
         )
       ),
-      'Hepiciği' => array(
+      'Tümden' => array(
         'link' => array(
           'controller' => 'orders',
           'action' => 'index',
@@ -63,7 +63,7 @@ Configure::write('Brk.main.menu', array(
       )
     )
   ),
-  'Envanter yada Ürünler' => array(
+  'Ürünler' => array(
     'link' => array(
       'controller' => 'products',
       'action' => 'index',

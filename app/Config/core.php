@@ -33,6 +33,9 @@
  */
 	Configure::write('debug', 2);
 
+	Configure::write('Config.language', 'tur');
+	setlocale(LC_ALL, 'tr_TR.UTF-8');
+
 /**
  * Configure the Error handler used to handle errors for your application. By default
  * ErrorHandler::handleError() is used. It will display errors using Debugger, when debug > 0

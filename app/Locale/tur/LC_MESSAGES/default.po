@@ -1,0 +1,141 @@
+
+msgid "A view block with the name '%s' is already/still open."
+msgstr "'%s' görünüm bloğu halen/zaten açık."
+
+msgid "Feeds"
+msgstr "Olaylar"
+
+msgid "feeds"
+msgstr "olaylar"
+
+msgid "feed"
+msgstr "olay"
+
+msgid "Last %d %s"
+msgstr "Son %d %s"
+
+msgid "You can see %s here!"
+msgstr "%s'ı buradan takip edebilirsiniz"
+
+msgid "Activities"
+msgstr "Aktiviteler"
+
+msgid "Activity"
+msgstr "Aktivite"
+
+msgid "activity"
+msgstr "aktivite"
+
+msgid "Projects"
+msgstr "Projeler"
+
+msgid "Project"
+msgstr "Proje"
+
+msgid "project"
+msgstr "proje"
+
+msgid "Relation"
+msgstr "İlgi"
+
+msgid "Relations"
+msgstr "İlgililer"
+
+msgid "%s details"
+msgstr "%s detayları"
+
+msgid "Add %s"
+msgstr "Yeni %s"
+
+msgid "Created by"
+msgstr "Oluşturan"
+
+msgid "Tags"
+msgstr "Etiketler"
+
+msgid "Tag"
+msgstr "Etiket"
+
+msgid "Name"
+msgstr "Adı"
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Login"
+msgstr "Giriş"
+
+msgid "Summary"
+msgstr "Özet"
+
+msgid "All"
+msgstr "Hepsi"
+
+msgid "%s status"
+msgstr "%s durumu"
+
+msgid "Staff"
+msgstr "Personel"
+
+msgid "Date range"
+msgstr "Tarih aralığı"
+
+msgid "Filter"
+msgstr "Filtrele"
+
+msgid "New %s added by %3$s"
+msgstr "%3$s tarafından yeni %s oluşturuldu"
+
+msgid "Client"
+msgstr "Müşteri"
+
+msgid "Clients"
+msgstr "Müşteriler"
+
+msgid "Product"
+msgstr "Ürün"
+
+msgid "Products"
+msgstr "Ürünler"
+
+msgid "Service"
+msgstr "Hizmet"
+
+msgid "Services"
+msgstr "Hizmetler"
+
+msgid "Added"
+msgstr "Eklendi"
+
+msgid "PhoneCall"
+msgstr "Telefon Görüşmesi"
+
+msgid "Task"
+msgstr "Görev"
+
+msgid "Tasks"
+msgstr "Görevler"
+
+msgid "Priority"
+msgstr "Öncelik"
+
+msgid "Add new %s"
+msgstr "Yeni %s"
+
+msgid "%s definition"
+msgstr "%s tanımı"
+
+msgid "%s description"
+msgstr "%s açıklaması"
+
+msgid "Started"
+msgstr "Görüşmelerin başladığı tarih"
+
+msgid "Information about the %s"
+msgstr "Mevcut %s hakkında bilgiler"
+
+msgid "Main Page"
+msgstr "Ana Sayfa"
+
+msgid "Leader"
+msgstr "Lider"

@@ -15,7 +15,7 @@
 
     <ul class="nav navbar-nav navbar-right">
       <li class="dropdown">
-        <?php echo $this->Html->link($this->Session->read('User.full_name') . ' <span class="caret"></span>', '#', array('escape' => false, 'class' => 'dropdown-toggle', 'data-toggle' => 'dropdown')); ?>
+        <?php echo $this->Html->link($this->Session->read('User.FullName') . ' <span class="caret"></span>', '#', array('escape' => false, 'class' => 'dropdown-toggle', 'data-toggle' => 'dropdown')); ?>
         <ul class="dropdown-menu" role="menu">
           <li>
             <?php echo $this->Html->link('Who am i?', array('plugin' => 'brk', 'controller' => 'profile', 'action' => 'index')); ?>

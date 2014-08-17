@@ -1,0 +1,19 @@
+body {
+	background-color: #e7e7e7;
+}
+
+.modal{
+  display:block;
+}
+
+.modal-dialog{
+  width:350px;
+}
+
+.modal-header{
+  background-color: #f8f8f8;
+}
+
+.modal-footer{
+  margin-top:0;
+}
