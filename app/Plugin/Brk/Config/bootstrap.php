@@ -1,89 +1,27 @@
 <?php
 
 Configure::write('Brk.main.menu', array(
-  'Müşteriler' => array(
+  'Tanımlamalar' => array(
     'link' => array(
-      'controller' => 'clients',
+      'controller' => 'settings',
       'action' => 'index',
       'plugin' => 'brk'
       ),
     'sub' => array(
-      'Listelesene' => array(
+      'Nokta-i Satış' => array(
         'link' => array(
-          'controller' => 'clients',
+          'controller' => 'resellers',
           'action' => 'index',
           'plugin' => 'brk'
         )
       ),
-      'Yeni Ekle' => array(
+      'Yeni Satış Nokt.' => array(
         'link' => array(
-          'controller' => 'clients',
+          'controller' => 'resellers',
           'action' => 'add',
           'plugin' => 'brk'
         )
       )
-    )
-  ),
-  'Siparişler' => array(
-    'link' => array(
-      'controller' => 'orders',
-      'action' => 'index',
-      'plugin' => 'brk'
-      ),
-    'sub' => array(
-      'Bekleyenler' => array(
-        'link' => array(
-          'controller' => 'orders',
-          'action' => 'pending',
-          'plugin' => 'brk'
-        )
-      ),
-      0 => 'sep',
-      'Arşiv' => array(
-        'link' => array(
-          'controller' => 'orders',
-          'action' => 'archive',
-          'plugin' => 'brk'
-        )
-      ),
-      'Tümden' => array(
-        'link' => array(
-          'controller' => 'orders',
-          'action' => 'index',
-          'plugin' => 'brk'
-        )
-      ),
-      1 => 'sep',
-      'Bende Oluşturabilirim' => array(
-        'link' => array(
-          'controller' => 'orders',
-          'action' => 'add',
-          'plugin' => 'brk'
-        )
-      )
-    )
-  ),
-  'Ürünler' => array(
-    'link' => array(
-      'controller' => 'products',
-      'action' => 'index',
-      'plugin' => 'brk'
-      ),
-    'sub' => array(
-      'Nedir Bunlar' => array(
-        'link' => array(
-          'controller' => 'products',
-          'action' => 'index',
-          'plugin' => 'brk'
-        )
-      ),
-      'Eklesem ?' => array(
-        'link' => array(
-          'controller' => 'products',
-          'action' => 'index',
-          'plugin' => 'brk'
-        )
-      ),
     )
   )
 ));

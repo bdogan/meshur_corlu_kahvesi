@@ -102,7 +102,7 @@ div.sections {
 .social.panel{
 	margin-top: 34px;
 	padding: 10px;
-	width: 250px;
+	width: auto;
 	background-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -255,4 +255,18 @@ ul.nav.navbar-nav li:first-child a{
 	left: 50%;
 	margin-left: -200px;
 
+}
+
+.resellers {
+	height: 250px;
+	display: block;
+	overflow: hidden;
+	overflow-y: scroll;
+}
+
+.resellers ul, .resellers li{
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+	margin-left: 5px;
 }
