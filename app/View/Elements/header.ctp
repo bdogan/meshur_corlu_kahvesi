@@ -15,10 +15,11 @@
       <ul class="nav navbar-nav">
         <li class="active"><a href="#story">Hakkımızda</a></li>
         <li><a href="#products">Ürünler</a></li>
-        <li><a href="#contact">İletişim</a></li>
+        <li><a href="#contact">İletişim & Satış Noktaları</a></li>
       </ul>
         <div class="social panel pull-right">
-          <?php echo $this->Html->link($this->Html->tag('i', '', array('class' => 'fa fa-facebook')) . 'Bizi facebooktan takip edin', 'http://www.facebook.com/pages/Meşhur-Çorlu-Kahvesi/1455010651431565', array('target' => 'new', 'escape' => false, 'class' => 'btn btn-social btn-facebook')); ?>
+           <?php echo $this->Html->link($this->Html->tag('i', '', array('class' => 'fa fa-facebook')), 'http://www.facebook.com/pages/Meşhur-Çorlu-Kahvesi/1455010651431565', array('target' => 'new', 'escape' => false, 'class' => 'btn btn-social-icon btn-facebook')); ?>
+          <?php echo $this->Html->link($this->Html->tag('i', '', array('class' => 'fa fa-instagram')), 'http://instagram.com/meshurcorlukahvesi', array('target' => 'new', 'escape' => false, 'class' => 'btn btn-social-icon btn-instagram')); ?>
         </div>
     </div>
   </div>

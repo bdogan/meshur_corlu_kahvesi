@@ -1,3 +1,5 @@
+var map;
+var marker;
 
 (function($) {
 	
@@ -112,13 +114,45 @@ function initMap(){
 	    
 	    
 	}
-	var map = new google.maps.Map(document.getElementById('mapHolder'), mapOptions);
+	map = new google.maps.Map(document.getElementById('mapHolder'), mapOptions);
 
-	var marker = new google.maps.Marker({
+	var mainMarker = new google.maps.Marker({
 		position: myLatlng,
 		map: map,
-		title: 'Meşhur Çorlu Kahvesi'
+		title: 'Meşhur Çorlu Kahvesi',
 	});
 
+	if (typeof resellers != "undefined") {
+		setResellers();
+	}
 }
 
+function centerMarker(lat, lan) {
+	var myLatlng = new google.maps.LatLng(lat, lan);
+	map.setCenter(myLatlng, 12);
+}
+
+function setResellers() {
+	if (!resellers) {
+		return;
+	}
+	for (var index in resellers) {
+		var reseller = resellers[index];
+		var myLatlng = new google.maps.LatLng(reseller[1], reseller[2]);
+		rMarker = new google.maps.Marker({
+			position: myLatlng,
+			map: map,
+			icon: {
+		        path: fontawesome.markers.FLAG,
+		        scale: 0.4,
+		        strokeWeight: 0.3,
+		        strokeColor: 'black',
+		        strokeOpacity: 1,
+		        fillColor: 'red',
+		        fillOpacity: 1,
+		    },			
+    		title: reseller[0],
+			animation: google.maps.Animation.DROP
+		});
+	}
+}

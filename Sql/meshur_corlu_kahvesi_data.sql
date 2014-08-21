@@ -11,11 +11,32 @@
  Target Server Version : 50534
  File Encoding         : utf-8
 
- Date: 08/17/2014 18:40:48 PM
+ Date: 08/21/2014 11:32:35 AM
 */
 
 SET NAMES utf8;
 SET FOREIGN_KEY_CHECKS = 0;
+
+-- ----------------------------
+--  Table structure for `resellers`
+-- ----------------------------
+DROP TABLE IF EXISTS `resellers`;
+CREATE TABLE `resellers` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(100) DEFAULT NULL,
+  `lat` varchar(45) DEFAULT NULL,
+  `lng` varchar(45) DEFAULT NULL,
+  `created` datetime DEFAULT NULL,
+  `modified` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+--  Records of `resellers`
+-- ----------------------------
+BEGIN;
+INSERT INTO `resellers` VALUES ('2', 'Çorlu Opet Benzinlik', '41.150740412144785', '27.83825757696536', '2014-08-21 00:15:06', '2014-08-21 09:49:56');
+COMMIT;
 
 -- ----------------------------
 --  Table structure for `users`

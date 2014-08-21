@@ -48,11 +48,12 @@
 <div class="intro-menu hidden-xs">
   <div class="container">
     <div class="row">
-      <div class="col col-xs-offset-4 col-xs-4 text-center">
+      <div class="col col-xs-offset-2 col-xs-8 text-center">
         <ul class="nav nav-pills nav-justified">
           <li><a href="#story">Hakkımızda</a></li>
           <li><a href="#products">Ürünlerimiz</a></li>
           <li><a href="#contact">İletişim</a></li>
+          <li><a href="#contact">Satış Noktaları</a></li>
         </ul>
       </div>
     </div>
