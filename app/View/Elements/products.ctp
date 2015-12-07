@@ -15,7 +15,7 @@
       <p style="font-size:140%;line-height:150%;">
         2 adet sade kahve 100+100gr
         <br />
-        1 adet kuşkolumu 120 gr
+        1 adet kuş lokumu 120 gr
         <br />
         1 adet çakıltaşı çikolatası 120 gr
         <br />
@@ -84,7 +84,7 @@
       <?php echo $this->Html->image('corlu-kahve-yesil-2.png', array('class' => 'img-circle product-image left', 'width' => 200)); ?>
       <h3 style="text-align:left;margin-top:45px;">Yeşil Kahveli Türk Kahvesi</h3>
       <p style="font-size:120%;line-height:150%;">
-        Herşeyin doğalı daha sağlıklı olduğu gibi kahvenin de ham hali yeşil kahve sizlere kahvenin tüm nimetlerinden yararlanmanızı sağlar. Kahve kavrulma seansında bazı besin değerlerini kaybetmektedir. Oysaki kahvenin kavrulmamış hali olan yeşil kahvede bu besin değerlerini bulabilirsiniz. Klorojenik asit içeriğini kaybetmeyen yesil kahve kalori yakımında size yardımcı olacak. Kahvenizi içerek keyifli zayıflamalar dileriz. 
+        Herşeyin doğalı daha sağlıklı olduğu gibi kahvenin de ham hali yeşil kahve sizlere kahvenin tüm nimetlerinden yararlanmanızı sağlar. Kahve kavrulma seansında bazı besin değerlerini kaybetmektedir. Oysaki kahvenin kavrulmamış hali olan yeşil kahvede bu besin değerlerini bulabilirsiniz. Klorojenik asit içeriğini kaybetmeyen yesil kahve kalori yakımında size yardımcı olacak. Kahvenizi içerek keyifli zayıflamalar dileriz.
       </p>
       <br />
       <br />
