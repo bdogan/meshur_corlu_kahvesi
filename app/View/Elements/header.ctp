@@ -18,8 +18,9 @@
         <li><a href="#contact">İletişim & Satış Noktaları</a></li>
       </ul>
         <div class="social panel pull-right">
-           <?php echo $this->Html->link($this->Html->tag('i', '', array('class' => 'fa fa-facebook')), 'http://www.facebook.com/pages/Meşhur-Çorlu-Kahvesi/1455010651431565', array('target' => 'new', 'escape' => false, 'class' => 'btn btn-social-icon btn-facebook')); ?>
+          <?php echo $this->Html->link($this->Html->tag('i', '', array('class' => 'fa fa-facebook')), 'http://www.facebook.com/pages/Meşhur-Çorlu-Kahvesi/1455010651431565', array('target' => 'new', 'escape' => false, 'class' => 'btn btn-social-icon btn-facebook')); ?>
           <?php echo $this->Html->link($this->Html->tag('i', '', array('class' => 'fa fa-instagram')), 'http://instagram.com/meshurcorlukahvesi', array('target' => 'new', 'escape' => false, 'class' => 'btn btn-social-icon btn-instagram')); ?>
+          <a href="http://www.trakyalezzetleri59.com" target="new" class="btn btn-default"><i class="fa fa-shopping-cart" style="font-size: 20px;margin-right: 4px;margin-left: -2px;vertical-align: -2px;"></i> Sanal Mağaza</a>
         </div>
     </div>
   </div>
